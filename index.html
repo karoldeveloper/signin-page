@@ -8,23 +8,34 @@
   <title>Sign In</title>
 </head>
 <body>
-  <section id="background-area">
-    <section class="form-area">
+  <section id="background-side">
+
+  </section>
+
+  <section class="form-side">
+    <div class="form-area">
       <form action="" autocomplete="off">
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          <input type="email" class="form-control" id="email">
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" placeholder="">
+          <input type="password" class="form-control" id="password">
         </div>
-        <div class="d-grid gap-2">
-          <button class="btn btn-outline-info" type="button">Log in</button>
+        <div class="d-flex justify-content-between">
+          <div>
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me </label>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-sm" type="button">Log in</button>
+          </div>
         </div>
       </form>
-    </section>
+    </div>
   </section>
+
 
 
 

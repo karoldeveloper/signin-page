@@ -1,24 +1,32 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-#background-area {
+#background-side {
   background-image: url("/img/ocean-filter.png");
+  background-position: center;
   height: 100vh;
   width: 100%;
+}
+
+.form-side {
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .form-area {
-  height: 22rem;
-  width: 22rem;
-  background-color: whitesmoke;
-  border-radius: 10px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: white;
+  padding: 3em;
+  box-shadow: 0 5px 10px -5px;
+  border-radius: 5px;
 }
