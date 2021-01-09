@@ -30,3 +30,21 @@ body {
   box-shadow: 0 5px 10px -5px;
   border-radius: 5px;
 }
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+
+  body {
+    display: block;
+  }
+  
+  #background-side {
+    display: none;
+  }
+  
+  section:nth-child(2) {
+    background-image: url("/img/ocean-filter.png");
+    background-position: center;
+  }
+}
